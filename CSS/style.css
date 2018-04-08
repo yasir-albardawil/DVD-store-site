@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin:0;
+	padding:0;
+}
+#login-form
+{
+	margin-top:70px;
+}
+table
+{	
+	border:solid #dcdcdc 1px;
+	padding:25px;
+	box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+}
+table tr,td
+{
+	padding:15px;
+	border:solid #e1e1e1 1px;
+}
+table tr td input
+{
+	width:97%;
+	height:45px;
+	border:solid #e1e1e1 1px;
+	border-radius:3px;
+	padding-left:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	background:#f9f9f9;
+	transition-duration:0.5s;
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+}
+
+.button {
+	width:130px;
+	height:45px;
+	border:0px;
+	background:rgba(12,45,78,11);
+	background:-moz-linear-gradient(top, #595959 , #515151);
+	border-radius:3px;
+	box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+	color:#f9f9f9;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bolder;
+	text-transform:uppercase;
+}
+
+table tr td button
+{
+	width:100%;
+	height:45px;
+	border:0px;
+	background:rgba(12,45,78,11);
+	background:-moz-linear-gradient(top, #595959 , #515151);
+	border-radius:3px;
+	box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+	color:#f9f9f9;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bolder;
+	text-transform:uppercase;
+}
+table tr td button:active
+{
+	position:relative;
+	top:1px;
+}
+#empty_cart {
+	text-decoration:none;
+	color:#00a2d1;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:50px;
+}
+
+table tr td a
+{
+	text-decoration:none;
+	color:#00a2d1;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+}
+
+/* css for home page  */
+
+*
+{
+	margin:0;
+	padding:0;
+}
+#header
+{
+	width:100%;
+	height:60px;
+	background:rgba(00,11,22,33);
+	color:#9fa8b0;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#header #left
+{
+	float:left;
+	position:relative;
+}
+#header #left label
+{
+	position:relative;
+	top:5px;
+	left:100px;
+	font-size:35px;
+}
+#header #right
+{
+	float:right;
+	position:relative;
+}
+#header #right #content
+{
+	position:relative;
+	top:20px;
+	right:100px;
+	color:#fff;
+}
+#header #right #content a
+{
+	color:#00a2d1;
+}
+
+
+#body {
+	text-align:center;
+	margin-top:150px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:36px;
+}
+#checkout {
+	margin-top: 15px;
+}
+
+#card {
+	margin-top: 15px;
+}
+
+#img_checkout {
+	position: absolute;
+    top: 75px;
+    right: 75px;
+    font-size: 18px;
+}
+#img_card {
+	position: absolute;
+    top: 75px;
+    right: 16px;
+    font-size: 18px;
+
+}
+
+#num_card {
+	position: absolute;
+    top: 65px;
+    right: 35px;
+    font-size: 18px;
+	font-weight:bold;
+	color:#00a2d1;
+}
+#blod_font {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:50px;
+	text-align:center;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+#meun li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#text {
+	text-decoration: none;
+	color:gray;
+}
+
+paginate {
+font-family:Arial, Helvetica, sans-serif;
+padding: 3px;
+margin: 3px;
+}
+
+.paginate a {
+padding:2px 5px 2px 5px;
+margin:2px;
+border:1px solid #999;
+text-decoration:none;
+color: gray;
+}
+.paginate a:hover, .paginate a:active {
+border: 1px solid #999;
+color: #000;
+}
+.paginate span.current {
+margin: 2px;
+padding: 2px 5px 2px 5px;
+border: 1px solid #999;
+
+font-weight: bold;
+background-color: rgba(12,45,78,11);
+color: #FFF;
+}
+.paginate span.disabled {
+padding:2px 5px 2px 5px;
+margin:2px;
+border:1px solid #eee;
+color:#DDD;
+}
+
+li{
+padding:4px;
+margin-bottom:3px;
+list-style:none;}
+
+ul{margin:6px;
+padding:0px;}
+
+
+
+
+/* The CSS */
+select {
+	width:150px;
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+.select_text {position:relative}
+
+/* css for home page */
